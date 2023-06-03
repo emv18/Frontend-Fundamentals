@@ -123,10 +123,18 @@ form > button{
 }
 
 .capterra_image{
-  width: 12rem;
+  width: 11rem;
   height: 4rem;
-  padding: 8px 0;
-  display: block;
+  padding: 0 2px 8px 0;
+  display: inline-block;
+  margin: auto;
+}
+
+.rating{
+  width: 6rem;
+  height: 3rem;
+  padding: 0 0 12px 2px;
+  display: inline-block;
   margin: auto;
 }
 
@@ -136,4 +144,5 @@ form > button{
   padding: 8px 0;
   display: block;
   margin: auto;
+  margin-left: 15%;
 }
