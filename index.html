@@ -2,24 +2,52 @@
 <html>
   <head>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/x-icon" href="images/tail.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind&display=swap" rel="stylesheet">
     <!-- Aquí va información importante pero no visible dentro del navegador -->
     <title>Matcha</title>
   </head>
   <body>
-    <!-- Esto es lo que se verá en el navegador web -->
-    <h1>Build your blog. Build your business.</h1>
-    <p>
-    Start publishing today with a <strong>free 7-day trial.</strong>
-    </p>
-    <p>
-        <strong>No credit card</strong> required.
-    </p>
-    <form>
-        <input type="email" />
+    <header class="header">
+        <!-- Logo con link a la página principal -->
+        <a href="/" class="logo">
+          <img src="images/quetzal.png" alt="Matcha"/>
+        </a>
+        <!-- Menú de navegación -->
+        <nav class="navbar">
+          <ul>
+            <li>Platform</li>
+            <li>Pricing</li>
+            <li>Customers</li>
+            <li>Resources</li>
+            <li>About</li>
+          </ul>
+        </nav>
+          <!-- Contenedor de acciones de usuario -->
+        <div class="actions">
+          <a>Sign In</a>
+          <button>Free Trial</button>
+        </div>
+    </header>
+
+    <!-- Aquí va la barra de navegación -->
+    <section class="main">
+      <h1>Build your blog. Build your business.</h2>
+      <h5>Instantly publish articles, drive more traffic, grow your email list, and see your blogs impact on sales.</h5>
+      <br>
+      <form>
+        <input type="email">
         <button type="submit">
-            Try it now &rarr;
+          Try it now &rarr;
         </button>
-    </form>
-    <img src="images/capterra.png" alt="imagen capterra" />
+      </form>
+
+      <p>Start publishing today with a <strong>free 7-day trial.</strong></p>
+      <p><strong>No credit card</strong> required.</p>
+    </section>
+    <img class="capterra_image" src="images/capterra.png" alt="capterra">
+    <img class="web_image" src="images/web_image.png" alt="web image">
   </body>
 </html>

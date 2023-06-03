@@ -1,19 +1,108 @@
 body {
     background-color: #fffbf7;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
 
 h1 {
-    color: #46484c;
+    color: #025157;
     text-align: center;
+    font-family: 'Concert One', cursive;
 }
 
 p {
     color: #8b8b8bcc;
-    font-family: verdana;
     font-size: 20px;
+    font-family: 'Nanum Myeongjo', serif;
 }
 
 button {
     color: #fff;
-    background-color: #025157;
+    background-color: #006865;
+    border-radius: 999em;
+    text-align: center;
+    border: 0;
+    height: 36px;
+    width: 88px;
+}
+
+.header {
+  font-family: sans-serif;
+}
+
+.header > * {
+  display: inline-block;
+  text-align: center;
+  height: 4rem;
+  padding: 8px 0;
+}
+
+.logo{
+  width: 10%;
+}
+
+.logo > img {
+  width: 44px;
+  height: 44px;
+}
+
+li {
+  display: inline-block;
+}
+
+.navbar{
+  width: 60%;
+  color: #025157;
+  font-weight: 500;
+}
+
+.navbar > ul > li{
+  padding: 0 20px;
+}
+  
+.actions {
+  width: 20%;
+  font-weight: 600;
+}
+  
+.actions > a {
+  color: #006865;
+  padding: 0 8px;
+}
+
+.actions > button{
+  font-size: 16px;
+}
+
+.logo_image{
+  width: 10%;
+  height: 44px;
+}
+
+.main {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 100px;
+  text-align: center;
+}
+
+.menu-item {
+  display: inline;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
+.capterra_image{
+  width: 12rem;
+  height: 4rem;
+  padding-left: 45rem;
+}
+
+.web_image{
+  display: block;
+  padding-left: 28rem;
+  width: 50rem;
+  height: 30rem;
 }
