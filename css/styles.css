@@ -32,15 +32,21 @@ button {
     background-color: #006865;
     text-align: center;
     font-family: 'Nanum Myeongjo', serif;
+    cursor: pointer;
+    transition-duration: 0.4s;
     border-radius: 999em;
     border: 0;
     height: 36px;
     width: 88px;
 }
 
+button:hover{
+  border: 2px solid #DCDCDC;
+}
+
 form > input{
   width: 24%;
-  margin: 0 4px;
+  margin: 0 12px 0 10%;
 }
 
 form > button{
@@ -82,9 +88,7 @@ form > button{
 }
 
 .navbar > ul > li:hover{
-  background-color: #006865;
-  color: #DCDCDC;
-  border-radius: 999em;
+  border-bottom: 2px solid #006865;
 }
   
 .actions {
@@ -96,6 +100,7 @@ form > button{
 .actions > a {
   color: #006865;
   padding: 0 8px;
+  cursor: pointer;
 }
 
 .actions > button{
@@ -114,6 +119,7 @@ form > button{
 
 .banner{
   text-align: center;
+  padding: 0 44px;
 }
 
 .capterra_image{
