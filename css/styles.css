@@ -113,8 +113,10 @@ form > button{
 }
 
 .main {
-  padding: 80px 44px 0;
-  text-align: center;
+  display: flex;
+  width: 70%;
+  margin: 100px auto;
+  align-items: center;
 }
 
 .banner{
